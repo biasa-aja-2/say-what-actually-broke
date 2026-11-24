@@ -7,7 +7,8 @@ library only.
 
 The line: a save fails because the disk is full -- and the disk is full
 of error logs complaining the disk is full. It names the real failure in
-plain words, tells the user what to do next, and the loop is the joke.
+plain words, tells the user what to do next, and the loop is the joke:
+the very logs that report the problem are the problem.
 """
 
 import os
